@@ -28,7 +28,7 @@
 		if(typeof searchEngine == "undefined" || searchEngine == null || searchEngine == ""){
 			searchEngine = "https://www.google.com/search?q=";
 		}
-		var homeHost = "wujun234.com";
+		var homeHost = "default";
 		if(typeof homeHost == "undefined" || homeHost == null || homeHost == ""){
 			homeHost = window.location.host;
 		}
@@ -221,29 +221,29 @@ Cache Aside Pattern 中服务端需要同时维系 DB 和 cache，并且是以 D
 	</div>
 	<div id="footer">
 	<p>
-	©<span id="footerYear-start"></span>-<span id="footerYear-end"></span>
+		©<span id="footerYear-start"></span>-<span id="footerYear-end"></span>
 
-	
-	    <a href="/">YEFAN</a>
-	
-	
-	
-	<br>
-	Theme <a href="//github.com/wujun234/hexo-theme-tree" target="_blank">Tree</a>
-	by <a href="//wujun.me" target="_blank">Wu Jun</a>
-	Powered by <a href="//hexo.io" target="_blank">Hexo</a>
+		
+				<a href="/">YEFAN</a>
+				
+
+					
+							<!-- <br>
+							Theme <a href="//github.com/wujun234/hexo-theme-tree" target="_blank">Tree</a>
+							by <a href="//wujun.me" target="_blank">Wu Jun</a>
+							Powered by <a href="//hexo.io" target="_blank">Hexo</a> -->
 	</p>
 </div>
 
 
-<script type="text/javascript">
-	document.getElementById('footerYear-start').innerHTML = new Date().getFullYear() + '';
-</script>
-
-<script type="text/javascript">
-	document.getElementById('footerYear-end').innerHTML = new Date().getFullYear() + '';
-</script>
-
+	<script type="text/javascript">
+		document.getElementById('footerYear-start').innerHTML = new Date().getFullYear() + '';
+	</script>
+	
+		<script type="text/javascript">
+			document.getElementById('footerYear-end').innerHTML = new Date().getFullYear() + '';
+		</script>
+		
 	<button id="totop-toggle" class="toggle"><i class="fa fa-angle-double-up" aria-hidden="true"></i></button>
 </body>
 </html>
